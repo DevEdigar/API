@@ -8,6 +8,8 @@ inputQuestion.addEventListener("keypress", (e) => {
 
 const GEMINI_API_KEY = "AIzaSyAKoWKo1_wdnHZAFhqWNHDHGwF3zpsagIw"; // Substitua pela sua chave de API
 
+const SOBREMIM = ""
+
 function sendQuestion() {
     var sQuestion = inputQuestion.value;
 

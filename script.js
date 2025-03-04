@@ -56,7 +56,6 @@ function sendQuestion() {
         result.value += "\nErro ao conectar à API do Gemini.";
     })
     .finally(() => {
-        // Reabilita o input e limpa o campo
         inputQuestion.value = "";
         inputQuestion.disabled = false;
         inputQuestion.focus();

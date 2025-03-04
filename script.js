@@ -26,7 +26,7 @@ function sendQuestion() {
         },
         body: JSON.stringify({
             contents: [{
-                parts: [{ text: sQuestion }]
+                parts: [{ text: sQuestion + SOBREMIM }]
             }],
             generationConfig: {
                 maxOutputTokens: 2048,
